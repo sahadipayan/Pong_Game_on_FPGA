@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="uBlaze_pong_game_v3" location="D:/SoCDesign/HW3/Vitis/uBlaze_pong_game_v3" platform="D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/export/uBlaze_pong_im_gen_wrapper/uBlaze_pong_im_gen_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="uBlaze_pong_game_v3_system" sysConfig="uBlaze_pong_im_gen_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="1598e91f34c71f5f9311281ada046a91">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.329578139">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1673660568" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

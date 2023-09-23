@@ -1,0 +1,77 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Mar 26 13:12:41 2023
+| Host         : HPLaptopKawser running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uBlaze_pong_im_gen_pong_image_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uBlaze_pong_im_gen_pong_image_gen_0_0 (xilinx.com:user:pong_image_gen:3.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Mar 26 12:50:13 2023
+| Host         : HPLaptopKawser running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uBlaze_pong_im_gen_pong_image_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uBlaze_pong_im_gen_pong_image_gen_0_0 (xilinx.com:user:pong_image_gen:3.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Mar 26 11:03:45 2023
+| Host         : HPLaptopKawser running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uBlaze_pong_im_gen_pong_image_gen_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uBlaze_pong_im_gen_pong_image_gen_0_0 (xilinx.com:user:pong_image_gen:3.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uBlaze_pong_im_gen_pong_image_gen_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'blue'
+
+-Upgrade has added port 'green'
+
+-Upgrade has added port 'h_sync'
+
+-Upgrade has added port 'red'
+
+-Upgrade has added port 'v_sync'
+
+

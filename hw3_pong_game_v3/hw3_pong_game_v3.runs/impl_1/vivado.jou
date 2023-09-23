@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Mar 26 13:17:47 2023
+# Process ID: 8976
+# Current directory: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/impl_1
+# Command line: vivado.exe -log uBlaze_pong_im_gen_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uBlaze_pong_im_gen_wrapper.tcl -notrace
+# Log file: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/impl_1/uBlaze_pong_im_gen_wrapper.vdi
+# Journal file: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/impl_1\vivado.jou
+# Running On: HPLaptopKawser, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16946 MB
+#-----------------------------------------------------------
+source uBlaze_pong_im_gen_wrapper.tcl -notrace

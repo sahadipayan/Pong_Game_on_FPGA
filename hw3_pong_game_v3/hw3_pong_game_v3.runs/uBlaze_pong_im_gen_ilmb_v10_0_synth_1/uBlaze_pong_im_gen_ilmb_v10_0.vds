@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Mar 26 11:15:42 2023
+# Process ID: 4876
+# Current directory: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log uBlaze_pong_im_gen_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uBlaze_pong_im_gen_ilmb_v10_0.tcl
+# Log file: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_ilmb_v10_0_synth_1/uBlaze_pong_im_gen_ilmb_v10_0.vds
+# Journal file: D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_ilmb_v10_0_synth_1\vivado.jou
+# Running On: HPLaptopKawser, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16946 MB
+#-----------------------------------------------------------
+source uBlaze_pong_im_gen_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1411.289 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/SoCDesign/HW3/ip_repo/pong_image_gen_3.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2022.1/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP uBlaze_pong_im_gen_ilmb_v10_0, cache-ID = 10e94bb90dc28c7e.
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 26 11:16:11 2023...

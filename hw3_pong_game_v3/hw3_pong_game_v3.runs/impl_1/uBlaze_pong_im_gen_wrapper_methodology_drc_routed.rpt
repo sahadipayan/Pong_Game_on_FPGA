@@ -1,0 +1,589 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Sun Mar 26 13:21:11 2023
+| Host         : HPLaptopKawser running 64-bit major release  (build 9200)
+| Command      : report_methodology -file uBlaze_pong_im_gen_wrapper_methodology_drc_routed.rpt -pb uBlaze_pong_im_gen_wrapper_methodology_drc_routed.pb -rpx uBlaze_pong_im_gen_wrapper_methodology_drc_routed.rpx
+| Design       : uBlaze_pong_im_gen_wrapper
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 105
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert   | 4          |
+| TIMING-9  | Warning  | Unknown CDC Logic              | 1          |
+| TIMING-18 | Warning  | Missing input or output delay  | 21         |
+| TIMING-20 | Warning  | Non-clocked latch              | 78         |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell uBlaze_pong_im_gen_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) uBlaze_pong_im_gen_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/sel_n_reg/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[31]_i_3, with 2 or more inputs, drives asynchronous preset/clear pin(s) uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[1]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[20]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[21]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[22]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[23]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[24]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[25]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[26]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[27]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[28]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[29]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[2]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[30]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[31]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[8]/CLR
+ (the first 15 of 26 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[3]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[4]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[5]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[6]/CLR,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[7]/CLR
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[3]/PRE,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[4]/PRE,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[5]/PRE,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[6]/PRE,
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[7]/PRE
+uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on push_buttons_4bits_tri_i[0] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on push_buttons_4bits_tri_i[1] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on push_buttons_4bits_tri_i[2] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on push_buttons_4bits_tri_i[3] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on usb_uart_rxd relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on blue_0[0] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on blue_0[1] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on blue_0[2] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on blue_0[3] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on green_0[0] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on green_0[1] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on green_0[2] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on green_0[3] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on h_sync_0 relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on red_0[0] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on red_0[1] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on red_0[2] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on red_0[3] relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on usb_uart_txd relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on v_sync_0 relative to clock(s) sys_clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[1] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[2] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[3] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[4] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[5] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[6] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[7] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard1/data_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[1] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[2] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[3] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[4] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[5] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[6] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[7] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/scoreboard2/data_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[0] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[10] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[11] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[12] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[13] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[14] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[15] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[16] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[17] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[18] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[19] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[1] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[20] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[21] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[22] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[23] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[24] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[25] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[26] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[27] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[28] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[29] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[2] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[30] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[31] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[3]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[3] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[3]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[4]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[4] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[4]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[5]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[5] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[5]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[6]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[6] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[6]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[7]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[7] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[7]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[8] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]/L7 (in uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9] macro) cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_l_reg[9]/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[0] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[10] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[11] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[12] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[13] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[14] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[15] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[16] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[17] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[18] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[19] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[1] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[20] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[21] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[22] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[23] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[24] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[25] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[26] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[27] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[28] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[29] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[2] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[30] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[31] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[3] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[4] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[5] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[6] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[7] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[8] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[9] cannot be properly analyzed as its control pin uBlaze_pong_im_gen_i/pong_image_gen_0/inst/pong_image_gen_v3_0_S00_AXI_inst/pong_im_gen0/im_gen0/y_pad_next_r_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 78 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

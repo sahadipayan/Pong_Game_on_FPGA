@@ -1,0 +1,2117 @@
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened new HwDB with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-03-26.11:24:40::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper"
+		}]
+}
+TRACE::2023-03-26.11:24:40::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-03-26.11:24:40::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-03-26.11:24:40::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper"
+		}]
+}
+TRACE::2023-03-26.11:24:40::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper"
+		}]
+}
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:40::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:40::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:40::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-26.11:24:40::SCWMssOS::No sw design opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::mss does not exists at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::Creating sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::Adding the swdes entry, created swdb D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::updating the scw layer changes to swdes at   D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::Writing mss at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:40::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.11:24:40::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-26.11:24:40::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-26.11:24:40::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.11:24:40::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-03-26.11:24:42::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.11:24:42::SCWMssOS::Writing the mss file completed D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-26.11:24:42::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.11:24:42::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:24:42::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-03-26.11:24:42::SCWSystem::Not a boot domain 
+LOG::2023-03-26.11:24:42::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.11:24:42::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.11:24:42::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.11:24:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.11:24:42::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-26.11:24:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-26.11:24:42::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2023-03-26.11:24:42::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-26.11:24:42::SCWMssOS::Copying to export directory.
+TRACE::2023-03-26.11:24:42::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-26.11:24:42::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-26.11:24:42::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-03-26.11:24:42::SCWSystem::Completed Processing the sysconfig uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:24:42::SCWPlatform::Completed generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:42::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-26.11:24:42::SCWSystem::Writing the bif file for system config uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:42::SCWSystem::dir created 
+TRACE::2023-03-26.11:24:42::SCWSystem::Writing the bif 
+TRACE::2023-03-26.11:24:42::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-26.11:24:42::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-26.11:24:42::SCWPlatform::Completed generating the platform
+TRACE::2023-03-26.11:24:42::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.11:24:42::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.11:24:42::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:42::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:42::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:42::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:42::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-26.11:24:42::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-26.11:24:43::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:43::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.11:24:43::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:24:43::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.11:24:43::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.11:24:43::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.11:24:43::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.11:24:43::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-26.11:24:43::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-26.11:24:43::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-03-26.11:24:43::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-26.11:24:43::SCWMssOS::Copying to export directory.
+TRACE::2023-03-26.11:24:43::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-26.11:24:43::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-26.11:24:43::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-03-26.11:24:43::SCWSystem::Completed Processing the sysconfig uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:24:43::SCWPlatform::Completed generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:43::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-26.11:24:43::SCWSystem::Writing the bif file for system config uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:24:43::SCWSystem::dir created 
+TRACE::2023-03-26.11:24:43::SCWSystem::Writing the bif 
+TRACE::2023-03-26.11:24:43::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-26.11:24:43::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-26.11:24:43::SCWPlatform::Completed generating the platform
+TRACE::2023-03-26.11:24:43::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.11:24:43::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:24:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:24:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:24:43::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:24:43::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:24:43::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-26.11:24:43::SCWPlatform::updated the xpfm file.
+LOG::2023-03-26.11:38:04::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:38:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.11:38:04::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:38:04::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-03-26.11:38:04::SCWSystem::Not a boot domain 
+LOG::2023-03-26.11:38:04::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.11:38:04::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.11:38:04::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.11:38:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.11:38:04::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:04::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:04::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:04::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:38:04::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:04::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:38:04::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:04::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:38:04::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:04::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:38:04::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:04::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.11:38:04::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-26.11:38:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-26.11:38:04::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-03-26.11:38:04::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-26.11:38:04::SCWMssOS::System Command Ran  D: & cd  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-03-26.11:38:05::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:05::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:05::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:05::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:05::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.11:38:05::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.11:38:05::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.11:38:05::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.11:38:05::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.11:38:05::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:07::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.11:38:07::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.11:38:07::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.11:38:07::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.11:38:07::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-03-26.11:38:07::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2023-03-26.11:38:07::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:07::SCWMssOS::"Compiling pong_image_gen..."
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:08::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:08::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:08::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:08::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.11:38:08::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.11:38:08::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.11:38:08::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.11:38:08::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.11:38:08::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.11:38:08::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.11:38:08::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.11:38:08::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.11:38:08::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.11:38:08::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.11:38:08::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.11:38:08::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.11:38:08::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.11:38:08::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-03-26.11:38:08::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-03-26.11:38:08::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.11:38:08::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-03-26.11:38:08::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-03-26.11:38:08::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.11:38:12::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-03-26.11:38:12::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-03-26.11:38:12::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-03-26.11:38:12::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2023-03-26.11:38:12::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.11:38:12::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2023-03-26.11:38:12::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o micro
+TRACE::2023-03-26.11:38:12::SCWMssOS::blaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handl
+TRACE::2023-03-26.11:38:12::SCWMssOS::er.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2023-03-26.11:38:12::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2023-03-26.11:38:12::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_c
+TRACE::2023-03-26.11:38:12::SCWMssOS::ache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/li
+TRACE::2023-03-26.11:38:12::SCWMssOS::b/xio.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/l
+TRACE::2023-03-26.11:38:12::SCWMssOS::ib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o micro
+TRACE::2023-03-26.11:38:12::SCWMssOS::blaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/x
+TRACE::2023-03-26.11:38:12::SCWMssOS::gpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.
+TRACE::2023-03-26.11:38:12::SCWMssOS::o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/
+TRACE::2023-03-26.11:38:12::SCWMssOS::lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_dcache_range.o mic
+TRACE::2023-03-26.11:38:12::SCWMssOS::roblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.11:38:12::SCWMssOS::e_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/li
+TRACE::2023-03-26.11:38:12::SCWMssOS::b/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush
+TRACE::2023-03-26.11:38:12::SCWMssOS::_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microbl
+TRACE::2023-03-26.11:38:12::SCWMssOS::aze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_
+TRACE::2023-03-26.11:38:12::SCWMssOS::0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2023-03-26.11:38:13::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-03-26.11:38:13::SCWMssOS::Copying to export directory.
+TRACE::2023-03-26.11:38:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-26.11:38:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-26.11:38:13::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-03-26.11:38:13::SCWSystem::Completed Processing the sysconfig uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.11:38:13::SCWPlatform::Completed generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:38:13::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-26.11:38:13::SCWSystem::Writing the bif file for system config uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.11:38:13::SCWSystem::dir created 
+TRACE::2023-03-26.11:38:13::SCWSystem::Writing the bif 
+TRACE::2023-03-26.11:38:13::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-26.11:38:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-26.11:38:13::SCWPlatform::Completed generating the platform
+TRACE::2023-03-26.11:38:13::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.11:38:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.11:38:13::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:38:13::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:38:13::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:38:13::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:38:13::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:13::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:38:13::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:38:13::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:13::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-26.11:38:13::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-26.11:38:14::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:14::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:14::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:14::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.11:38:14::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.11:38:14::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.11:38:14::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:14::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_0
+TRACE::2023-03-26.11:38:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.11:38:14::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.11:38:14::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.11:38:14::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:29::SCWPlatform::Clearing the existing platform
+TRACE::2023-03-26.13:01:29::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-03-26.13:01:29::SCWMssOS::Removing the swdes entry for  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:29::SCWSystem::Clearing the domains completed.
+TRACE::2023-03-26.13:01:29::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-03-26.13:01:29::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform:: Platform location is D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:29::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:29::SCWPlatform::Removing the HwDB with name D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:29::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:29::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:29::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened new HwDB with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWReader::Active system found as  uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:01:30::SCWReader::Handling sysconfig uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:01:30::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:30::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-26.13:01:30::SCWMssOS::No sw design opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::mss exists loading the mss file  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::Opened the sw design from mss  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::Adding the swdes entry D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:01:30::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-26.13:01:30::SCWMssOS::Opened the sw design.  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.13:01:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.13:01:30::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:01:30::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-03-26.13:01:30::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:30::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:30::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:30::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:01:30::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:30::SCWReader::No isolation master present  
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform location is D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:33::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:33::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:33::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_2
+TRACE::2023-03-26.13:01:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:33::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:33::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:01:33::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:33::SCWPlatform::update - Opened existing hwdb uBlaze_pong_im_gen_wrapper_3
+TRACE::2023-03-26.13:01:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:33::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.13:01:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.13:01:33::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:01:33::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-03-26.13:01:33::SCWMssOS::Removing the swdes entry for  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:33::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-26.13:01:34::SCWPlatform::Opened new HwDB with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:01:34::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:34::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:01:34::SCWMssOS::Writing the mss file completed D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:34::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:01:34::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:34::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:34::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:34::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:34::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:34::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:34::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:01:34::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:01:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:34::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:34::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:01:34::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:34::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c021",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-26.13:01:53::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:01:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.13:01:53::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.13:01:53::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-03-26.13:01:53::SCWSystem::Not a boot domain 
+LOG::2023-03-26.13:01:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.13:01:53::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.13:01:53::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.13:01:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.13:01:53::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:53::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:53::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:53::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:01:53::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:01:53::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:01:53::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:01:53::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:01:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:01:53::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:53::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:01:53::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:53::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.13:01:53::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:01:53::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-03-26.13:01:56::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-26.13:01:56::SCWMssOS::System Command Ran  D: & cd  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-03-26.13:01:56::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-03-26.13:01:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:01:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:01:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:01:56::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:01:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:01:57::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:01:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:01:57::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:01:57::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.13:01:57::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.13:01:57::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:01:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:01:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.13:01:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.13:01:58::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:02:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:02:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.13:02:00::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.13:02:00::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:02:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:02:00::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-03-26.13:02:00::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2023-03-26.13:02:00::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:02:01::SCWMssOS::"Compiling pong_image_gen..."
+
+ERROR::2023-03-26.13:02:01::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2023-03-26.13:02:01::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2023-03-26.13:03:32::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:03:32::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.13:03:32::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.13:03:32::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-03-26.13:03:32::SCWSystem::Not a boot domain 
+LOG::2023-03-26.13:03:32::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.13:03:32::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.13:03:32::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.13:03:32::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.13:03:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:03:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:03:32::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:32::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:03:32::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:32::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-26.13:03:32::SCWMssOS::No sw design opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:32::SCWMssOS::mss exists loading the mss file  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:32::SCWMssOS::Opened the sw design from mss  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:32::SCWMssOS::Adding the swdes entry D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:03:32::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-26.13:03:33::SCWMssOS::Opened the sw design.  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:33::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.13:03:33::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:33::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-26.13:03:33::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-26.13:03:33::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-03-26.13:03:33::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-26.13:03:33::SCWMssOS::System Command Ran  D: & cd  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-03-26.13:03:33::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:33::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:33::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:33::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:33::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:33::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:33::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.13:03:33::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.13:03:33::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.13:03:33::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.13:03:33::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:03:33::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.13:03:33::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.13:03:33::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-03-26.13:03:34::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2023-03-26.13:03:34::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::"Compiling vga_image_gen..."
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-03-26.13:03:34::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:03:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:03:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.13:03:35::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.13:03:35::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.13:03:35::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.13:03:35::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.13:03:35::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.13:03:35::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:03:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:03:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:03:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:03:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:03:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:03:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:03:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-03-26.13:03:36::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-03-26.13:03:36::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:37::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:03:37::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-03-26.13:03:37::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-03-26.13:03:37::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:03:45::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-03-26.13:03:45::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-03-26.13:03:45::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-03-26.13:03:45::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2023-03-26.13:03:45::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.13:03:45::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2023-03-26.13:03:45::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o micro
+TRACE::2023-03-26.13:03:45::SCWMssOS::blaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handl
+TRACE::2023-03-26.13:03:45::SCWMssOS::er.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2023-03-26.13:03:45::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2023-03-26.13:03:45::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_c
+TRACE::2023-03-26.13:03:45::SCWMssOS::ache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/li
+TRACE::2023-03-26.13:03:45::SCWMssOS::b/xio.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/l
+TRACE::2023-03-26.13:03:45::SCWMssOS::ib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o micro
+TRACE::2023-03-26.13:03:45::SCWMssOS::blaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/x
+TRACE::2023-03-26.13:03:45::SCWMssOS::gpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.
+TRACE::2023-03-26.13:03:45::SCWMssOS::o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/
+TRACE::2023-03-26.13:03:45::SCWMssOS::lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_dcache_range.o mic
+TRACE::2023-03-26.13:03:45::SCWMssOS::roblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.13:03:45::SCWMssOS::e_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/li
+TRACE::2023-03-26.13:03:45::SCWMssOS::b/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush
+TRACE::2023-03-26.13:03:45::SCWMssOS::_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microbl
+TRACE::2023-03-26.13:03:45::SCWMssOS::aze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_
+TRACE::2023-03-26.13:03:45::SCWMssOS::0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2023-03-26.13:03:46::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-03-26.13:03:46::SCWMssOS::Copying to export directory.
+TRACE::2023-03-26.13:03:46::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-26.13:03:46::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-26.13:03:46::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-03-26.13:03:46::SCWSystem::Completed Processing the sysconfig uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.13:03:46::SCWPlatform::Completed generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:03:46::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-26.13:03:46::SCWSystem::Writing the bif file for system config uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:03:46::SCWSystem::dir created 
+TRACE::2023-03-26.13:03:46::SCWSystem::Writing the bif 
+TRACE::2023-03-26.13:03:46::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-26.13:03:46::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-26.13:03:46::SCWPlatform::Completed generating the platform
+TRACE::2023-03-26.13:03:46::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:46::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.13:03:46::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.13:03:46::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:03:46::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:46::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:46::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:46::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:03:46::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:46::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:03:46::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:46::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:03:46::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:46::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:03:46::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:46::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-26.13:03:46::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-26.13:03:47::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:47::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:47::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:47::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:03:47::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:03:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:03:47::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:47::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_4
+TRACE::2023-03-26.13:03:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:03:47::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:03:47::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:03:47::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWPlatform::Clearing the existing platform
+TRACE::2023-03-26.13:23:28::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-03-26.13:23:28::SCWMssOS::Removing the swdes entry for  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWSystem::Clearing the domains completed.
+TRACE::2023-03-26.13:23:28::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform location is D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Removing the HwDB with name D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened new HwDB with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWReader::Active system found as  uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:23:28::SCWReader::Handling sysconfig uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:23:28::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:28::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-26.13:23:28::SCWMssOS::No sw design opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::mss exists loading the mss file  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::Opened the sw design from mss  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::Adding the swdes entry D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:23:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-03-26.13:23:28::SCWMssOS::Opened the sw design.  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.13:23:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.13:23:28::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:23:28::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-03-26.13:23:28::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:28::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:28::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:28::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:23:28::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:28::SCWReader::No isolation master present  
+TRACE::2023-03-26.13:23:31::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:31::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:31::SCWPlatform:: Platform location is D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa
+TRACE::2023-03-26.13:23:31::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:31::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:32::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:32::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:32::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_5
+TRACE::2023-03-26.13:23:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:32::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:23:32::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/tempdsa/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::update - Opened existing hwdb uBlaze_pong_im_gen_wrapper_6
+TRACE::2023-03-26.13:23:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:32::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-26.13:23:32::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-26.13:23:32::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:23:32::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-03-26.13:23:32::SCWMssOS::Removing the swdes entry for  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-26.13:23:32::SCWPlatform::Opened new HwDB with name uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:23:32::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:23:32::SCWMssOS::Writing the mss file completed D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:23:32::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:23:32::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:23:32::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:23:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:23:32::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:23:32::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:23:32::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c021",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-26.13:24:17::SCWPlatform::Started generating the artifacts platform uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:24:17::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-26.13:24:17::SCWPlatform::Started generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.13:24:17::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-03-26.13:24:17::SCWSystem::Not a boot domain 
+LOG::2023-03-26.13:24:17::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-03-26.13:24:17::SCWDomain::Generating domain artifcats
+TRACE::2023-03-26.13:24:17::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-26.13:24:17::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-26.13:24:17::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:17::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:17::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:17::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:24:17::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:17::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:24:17::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:17::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:24:17::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:17::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:24:17::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:17::SCWMssOS::Completed writing the mss file at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-03-26.13:24:17::SCWMssOS::Mss edits present, copying mssfile into export location D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:17::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-03-26.13:24:19::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-26.13:24:19::SCWMssOS::System Command Ran  D: & cd  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-03-26.13:24:19::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-03-26.13:24:19::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:24:19::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:19::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:19::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:20::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:20::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:20::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:20::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.13:24:20::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.13:24:20::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:24:20::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.13:24:20::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.13:24:20::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:24:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.13:24:22::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.13:24:22::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-03-26.13:24:23::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2023-03-26.13:24:23::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::"Compiling vga_image_gen..."
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:23::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:23::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-03-26.13:24:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-03-26.13:24:24::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/pong_image_gen_v1_0/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/pong_image_gen_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-26.13:24:24::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-26.13:24:24::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-03-26.13:24:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-03-26.13:24:24::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-26.13:24:24::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-26.13:24:24::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:24:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:24:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_15/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:24:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:24:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-03-26.13:24:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-03-26.13:24:24::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_7/src"
+
+TRACE::2023-03-26.13:24:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-03-26.13:24:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-03-26.13:24:24::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-03-26.13:24:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-03-26.13:24:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-03-26.13:24:25::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-26.13:24:32::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-03-26.13:24:32::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-03-26.13:24:32::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-03-26.13:24:32::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2023-03-26.13:24:32::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.13:24:32::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2023-03-26.13:24:32::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xil_cache.o micro
+TRACE::2023-03-26.13:24:32::SCWMssOS::blaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handl
+TRACE::2023-03-26.13:24:32::SCWMssOS::er.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_
+TRACE::2023-03-26.13:24:32::SCWMssOS::0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microbl
+TRACE::2023-03-26.13:24:32::SCWMssOS::aze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_c
+TRACE::2023-03-26.13:24:32::SCWMssOS::ache_ext_range.o microblaze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/li
+TRACE::2023-03-26.13:24:32::SCWMssOS::b/xio.o microblaze_0/lib/outbyte.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/l
+TRACE::2023-03-26.13:24:32::SCWMssOS::ib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o micro
+TRACE::2023-03-26.13:24:32::SCWMssOS::blaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/x
+TRACE::2023-03-26.13:24:32::SCWMssOS::gpio_sinit.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.
+TRACE::2023-03-26.13:24:32::SCWMssOS::o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microblaze_0/
+TRACE::2023-03-26.13:24:32::SCWMssOS::lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init_dcache_range.o mic
+TRACE::2023-03-26.13:24:32::SCWMssOS::roblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/microblaz
+TRACE::2023-03-26.13:24:32::SCWMssOS::e_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/li
+TRACE::2023-03-26.13:24:32::SCWMssOS::b/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush
+TRACE::2023-03-26.13:24:32::SCWMssOS::_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microbl
+TRACE::2023-03-26.13:24:32::SCWMssOS::aze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_
+TRACE::2023-03-26.13:24:32::SCWMssOS::0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2023-03-26.13:24:32::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-03-26.13:24:33::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-26.13:24:33::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-26.13:24:33::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-03-26.13:24:33::SCWSystem::Completed Processing the sysconfig uBlaze_pong_im_gen_wrapper
+LOG::2023-03-26.13:24:33::SCWPlatform::Completed generating the artifacts for system configuration uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:24:33::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-26.13:24:33::SCWSystem::Writing the bif file for system config uBlaze_pong_im_gen_wrapper
+TRACE::2023-03-26.13:24:33::SCWSystem::dir created 
+TRACE::2023-03-26.13:24:33::SCWSystem::Writing the bif 
+TRACE::2023-03-26.13:24:33::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-26.13:24:33::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-26.13:24:33::SCWPlatform::Completed generating the platform
+TRACE::2023-03-26.13:24:33::SCWMssOS::Saving the mss changes D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:33::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-03-26.13:24:33::SCWMssOS::Writing the mss file completed D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:33::SCWMssOS::Commit changes completed.
+TRACE::2023-03-26.13:24:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:24:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:24:33::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:33::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:24:33::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:33::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:24:33::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:33::SCWWriter::formatted JSON is {
+	"platformName":	"uBlaze_pong_im_gen_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"uBlaze_pong_im_gen_wrapper",
+	"platHandOff":	"D:/SoCDesign/HW3/hw3_pong_game_v3/uBlaze_pong_im_gen_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/uBlaze_pong_im_gen_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"uBlaze_pong_im_gen_wrapper",
+	"systems":	[{
+			"systemName":	"uBlaze_pong_im_gen_wrapper",
+			"systemDesc":	"uBlaze_pong_im_gen_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"uBlaze_pong_im_gen_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.7",
+					"mssFile":	"",
+					"md5Digest":	"fa36f921320a570fa3e3d58db7d26c02",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-26.13:24:33::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-26.13:24:33::SCWPlatform::Trying to open the hw design at D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA given D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA absoulate path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform::DSA directory D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw
+TRACE::2023-03-26.13:24:33::SCWPlatform:: Platform Path D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/hw/uBlaze_pong_im_gen_wrapper.xsa
+TRACE::2023-03-26.13:24:33::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2023-03-26.13:24:33::SCWPlatform::Trying to set the existing hwdb with name uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:33::SCWPlatform::Opened existing hwdb uBlaze_pong_im_gen_wrapper_7
+TRACE::2023-03-26.13:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-26.13:24:33::SCWMssOS::Checking the sw design at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-03-26.13:24:33::SCWMssOS::DEBUG:  swdes dump  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-03-26.13:24:33::SCWMssOS::Sw design exists and opened at  D:/SoCDesign/HW3/Vitis/uBlaze_pong_im_gen_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

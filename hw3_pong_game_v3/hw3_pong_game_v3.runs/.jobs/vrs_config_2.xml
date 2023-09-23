@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="uBlaze_pong_im_gen_axi_gpio_0_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_xbar_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_clk_wiz_0_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_axi_uartlite_0_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_pong_image_gen_0_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_pong_image_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_microblaze_0_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_dlmb_v10_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_lmb_bram_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_rst_clk_wiz_0_100M_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_rst_clk_wiz_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="uBlaze_pong_im_gen_ilmb_v10_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="uBlaze_pong_im_gen_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="uBlaze_pong_im_gen_mdm_1_0_synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/uBlaze_pong_im_gen_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="uBlaze_pong_im_gen_axi_gpio_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_xbar_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_clk_wiz_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_pong_image_gen_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_microblaze_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_dlmb_v10_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_lmb_bram_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_rst_clk_wiz_0_100M_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_ilmb_v10_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_mdm_1_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/SoCDesign/HW3/hw3_pong_game_v3/hw3_pong_game_v3.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_axi_gpio_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_xbar_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_clk_wiz_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_pong_image_gen_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_microblaze_0_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_dlmb_v10_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_lmb_bram_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_rst_clk_wiz_0_100M_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_ilmb_v10_0_synth_1"/>
+		<Parent Id="uBlaze_pong_im_gen_mdm_1_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
